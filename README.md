@@ -1,55 +1,23 @@
-# compose-symfony
+# Video importer project
+This project aims to implement a DDD approach when developing a video importer. The project has been built with a basic Symfony bundle, mainly using the console component. Following the DDD approach helps to: 
 
-Run Symfony3 in seconds!
+- Separate strategic design from tactical design. The strategic design defines how business wants to approach a problem that can be solved by software , and tactical design defines the real implementation behind the problem. It's just a method to have business logic as decoupled as possible from the implementation itself. Main pros:
+     - Bounded contexts of Core and Shared Kernel, and Domain and Infrastructure folders on each bounded context to check that separation of concerns.
+     - Separate the framework we use (implementation) from the business logic (business problem approach)
+- Separate design and implementation concerns to the smallest fraction so the Single Responsiblity Principle is well applied.
 
-## Features
+### Tactical design
+The main command imports video sources from various providers and formats and simulates a persistence mechanism, after providing to them a common interface. The command, after installing the environment , can be executed by the following command:
+`
+bin/console videoimporter:produce --ignore-queues=true
+`
+Executing this command will import all the videos from all the known (by business) providers, being retrieved by different means.
+### videoimporter:produce? --ignore-queues?
+Exevuting `bin/console | grep videoimporter`should have two commands revealed:
+`videoimporter:produce` and `videoimporter:consume`. Part of the intention of the design was to provide an asynchronous/concurrent way to import commands fom various sources at the time and store them concurrently. This was thanks to a rabbitmq message queuing system thats implemented as part of the code, but not shipped as a dependency of the project. An approach to run the processes for all the providers, and having them imported asynchronously via a RabbitMq queue would imply just this:
+`(bin/console videoimporter:produce --provider=flub 2>&1 >/dev/null) && (bin/console videoimporter:produce --provider=glorf 2>&1 >/dev/null 2>&1 >/dev/null) && bin/console videoimporter:consume 2>&1 >/dev/null)`
 
-This Symfony starter-kit is bundled with:
-- Symfony 3
-- nginx
-- PHP-fpm 7.2
-- PostgreSQL 10.1
-- composer
-- MailCatcher
+#Tests 
+There's a set of integration/end-to-end tests, and unit tests to check the projects structure and flow. The coverage is not complete,though.
 
-Each service runs in a dedicated container, and the whole thing is orchestrated with `docker-compose`.
 
-## Requirements
-
-You need [Docker Engine](https://docs.docker.com/engine/) and [Docker Compose](https://docs.docker.com/compose/) installed on your machine.
-
-## Quick start
-
-```sh
-# boot containers
-docker-compose up -d
-
-# browse website
-xdg-open http://localhost
-
-# watch emails sent in MailCatcher
-xdg-open http://localhost:81
-
-# run Symfony console
-./console
-
-# connect to PostgreSQL
-./psql
-```
-
-### Map a different host port
-
-By default, the web server will be mapped to host port `80`, but specifying another port is as easy as:
-
-```
-EXTERNAL_PORT=8000 docker-compose up -d
-xdg-open http://localhost:8000
-```
-
-### Map a different host port for MailCatcher
-
-By default, MailCatcher web interface will be mapped to host port `81`. Change with:
-```
-EXTERNAL_MAILCATCHER_PORT=8001 docker-compose up -d
-xdg-open http://localhost:8001
-```
