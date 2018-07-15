@@ -11,6 +11,11 @@ Feature: Import command
     videoimporter:producer                  Imports the videos from various sources
 
     """
+    And I should see in the output:
+    """
+    videoimporter:consumer                  Consumes the message from the queue and process them.
+
+    """
 
   Scenario: Checking that with default files provided, without any arguments, we import all the providers
     Given I am in the projects root directory

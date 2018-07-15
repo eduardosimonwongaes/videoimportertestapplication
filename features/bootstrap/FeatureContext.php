@@ -11,7 +11,7 @@ class FeatureContext implements Context
 {
 
     const BASE_COMMAND = "bin/console videoimporter:producer --omitqueues=true";
-    const DEBUG_CONTAINER_COMMAND = "bin/console debug:container";
+    const DEBUG_CONTAINER_COMMAND = "bin/console";
 
     /**
      * @var string
@@ -59,8 +59,6 @@ class FeatureContext implements Context
     public function iRunTheImportCommand()
     {
         $this->output = shell_exec(self::BASE_COMMAND);
-        echo  $this->output;
-
     }
 
     /**
