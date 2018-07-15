@@ -1,0 +1,17 @@
+parameters:
+
+#imports from sharedkernel
+imports:
+    - { resource: ../../src/AppBundle/SharedKernel/Infrastructure/Resources/services.yml }
+
+#symfony commands
+services:
+  AppBundle\Command\Consumer:
+    tags:
+      - { name: 'console.command', command: 'videoimporter:consumer' }
+
+  AppBundle\Command\Producer:
+    tags:
+      - { name: 'console.command', command: 'videoimporter:producer' }
+
+

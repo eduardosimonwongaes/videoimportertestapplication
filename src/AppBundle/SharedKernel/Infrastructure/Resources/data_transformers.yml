@@ -1,0 +1,3 @@
+services:
+  videoconsumer.infrastructure.service.datatransformer.message_datatransformer:
+    class: AppBundle\Core\Infrastructure\DataTransformer\MessageDataTransformer

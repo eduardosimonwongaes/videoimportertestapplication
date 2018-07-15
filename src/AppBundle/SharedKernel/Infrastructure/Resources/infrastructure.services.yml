@@ -1,0 +1,53 @@
+services:
+
+  #consumer side
+  videoconsumer.core.infrastructure.services.consume_and_persist.consume_and_persist_service:
+    class:  AppBundle\Core\Infrastructure\Service\ConsumeAndPersist\ConsumeAndPersistService
+    arguments:
+      - '@videoconsumer.shared_kernel.infrastructure.queue_service.rabbit_mq_queue_adapter_service'
+      - '@videoconsumer.core.infrastructure.service.process_video.process_video_service'
+
+  videoconsumer.core.infrastructure.service.build_video_aggregate.build_video_aggregate_service:
+    class: AppBundle\Core\Infrastructure\Service\BuildVideoAggregate\BuildVideoAggregateService
+
+  videoconsumer.core.infrastructure.service.process_video.process_video_service:
+    class: AppBundle\Core\Infrastructure\Service\ProcessVideo\ProcessVideoService
+    arguments:
+      - '@videoconsumer.infrastructure.service.datatransformer.message_datatransformer'
+      - '@videoconsumer.core.infrastructure.repository.doctrine_video_repository'
+      - '@videoconsumer.core.infrastructure.service.build_video_aggregate.build_video_aggregate_service'
+
+
+  #producer side
+  videoconsumer.core.infrastructure.service.flub_import.flub_import_service:
+    class: AppBundle\Core\Infrastructure\Service\FlubImport\FlubImportService
+    arguments:
+      - '@videoconsumer.shared_kernel.infrastructure.service.yaml_parser.yaml_parser_service'
+      - '@videoconsumer.core.infrastructure.service.video_data_dto_collection_builder.video_data_dto_collection_builder_service'
+
+  videoconsumer.core.infrastructure.service.glorf_import.glorf_import_service:
+    class: AppBundle\Core\Infrastructure\Service\GlorfImport\GlorfImportService
+    arguments:
+      - '@videoconsumer.shared_kernel.infrastructure.service.json_parser.json_parser_service'
+      - '@videoconsumer.core.infrastructure.service.video_data_dto_collection_builder.video_data_dto_collection_builder_service'
+
+  videoconsumer.core.infrastructure.service.other_provider_import.other_provider_import_service:
+    class: AppBundle\Core\Infrastructure\Service\OtherProviderImportService\OtherProviderImportService
+    arguments:
+      - '@videoconsumer.shared_kernel.infrastructure.service.sftp.sftp_file_transfer_adapter_service'
+      - '@videoconsumer.shared_kernel.infrastructure.service.json_parser.json_parser_service'
+      - '@videoconsumer.core.infrastructure.service.video_data_dto_collection_builder.video_data_dto_collection_builder_service'
+
+  videoconsumer.core.infrastructure.service.video_data_dto_collection_builder.video_data_dto_collection_builder_service:
+    class: AppBundle\Core\Infrastructure\Service\VideoDataDTOCollectionBuilder\VideoDataDTOCollectionBuilderService
+
+  videoconsumer.shared_kernel.infrastructure.service.json_parser.json_parser_service:
+    class: AppBundle\SharedKernel\Infrastructure\Service\JsonParser\JsonParserService
+
+  videoconsumer.shared_kernel.infrastructure.service.yaml_parser.yaml_parser_service:
+    class: AppBundle\SharedKernel\Infrastructure\Service\YamlParser\YamlParserService
+
+  videoconsumer.shared_kernel.infrastructure.service.sftp.sftp_file_transfer_adapter_service:
+    class: AppBundle\SharedKernel\Infrastructure\Sftp\SftpFileTransferAdapterService
+
+

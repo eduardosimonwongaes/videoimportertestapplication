@@ -1,0 +1,15 @@
+services:
+  videoconsumer.core.domain.service.get_import_method_from_provider_name_factory.get_import_method_from_provider_name_factory_service:
+    class: AppBundle\Core\Domain\Service\GetImportMethodFromProviderNameFactory\GetImportMethodFromProviderNameFactory
+    arguments:
+      - '@videoconsumer.core.infrastructure.service.flub_import.flub_import_service'
+      - '@videoconsumer.core.infrastructure.service.glorf_import.glorf_import_service'
+      - '@videoconsumer.core.infrastructure.service.other_provider_import.other_provider_import_service'
+      - '@service_container'
+
+  videoconsumer.core.domain.service.import_videos_from_provider.import_videos_from_provider_service:
+    class: AppBundle\Core\Domain\Service\ImportVideosFromProvider\ImportVideosFromProviderService
+    arguments:
+      - '@videoconsumer.core.domain.service.get_import_method_from_provider_name_factory.get_import_method_from_provider_name_factory_service'
+      - '@videoconsumer.shared_kernel.infrastructure.queue_service.rabbit_mq_queue_adapter_service'
+      - '@videoconsumer.core.infrastructure.service.process_video.process_video_service'

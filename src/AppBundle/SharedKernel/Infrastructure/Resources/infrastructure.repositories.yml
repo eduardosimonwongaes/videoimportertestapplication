@@ -1,0 +1,16 @@
+services:
+
+  #Aggregate repositories
+  videoconsumer.core.infrastructure.repository.doctrine_video_repository:
+    class: AppBundle\Core\Infrastructure\Repository\DoctrineVideoRepository
+
+  videoconsumer.core.infrastructure.repository.cassandra_video_repository:
+    class: AppBundle\Core\Infrastructure\Repository\CassandraVideoRepository
+
+  # Global Entity repositories
+  videoconsumer.shared_kernel.infrastructure.persistence.doctrine.doctrine_entity_repository:
+    class: SharedKernel\Infrastructure\Persistence\Doctrine\DoctrineEntityRepository
+    arguments:
+      - '@doctrine.orm.entity_manager'
+  videoconsumer.shared_kernel.infrastructure.persistence.cassandra.cassandra_entity_repository:
+    class: AppBundle\SharedKernel\Infrastructure\Persistence\Cassandra\CassandraEntityRepository

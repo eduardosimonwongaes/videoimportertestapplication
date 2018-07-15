@@ -1,0 +1,3 @@
+services:
+  videoconsumer.shared_kernel.infrastructure.queue_service.rabbit_mq_queue_adapter_service:
+    class: AppBundle\SharedKernel\Infrastructure\Queue\Service\RabbitMqQueueAdapterService

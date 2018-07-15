@@ -1,0 +1,10 @@
+services:
+  videoconsumer.core.application.service.consume_from_queue.consume_from_queue_use_case:
+    class: AppBundle\Core\Application\Services\ConsumeFromQueue\ConsumeFromQueueUseCase
+    arguments:
+      - '@videoconsumer.core.infrastructure.services.consume_and_persist.consume_and_persist_service'
+
+  videoconsumer.core.application.service.import_videos_from_provider.import_videos_from_provider_use_case:
+    class: AppBundle\Core\Application\Service\ImportVideosFromProvider\ImportVideosFromProviderUseCase
+    arguments:
+      - '@videoconsumer.core.domain.service.import_videos_from_provider.import_videos_from_provider_service'

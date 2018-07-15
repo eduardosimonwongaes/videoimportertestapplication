@@ -1,0 +1,8 @@
+imports:
+    - { resource: adapters.yml }
+    - { resource: infrastructure.repositories.yml }
+    - { resource: data_transformers.yml }
+    - { resource: application.use_cases.yml }
+    - { resource: domain.services.yml }
+    - { resource: infrastructure.services.yml }
+    

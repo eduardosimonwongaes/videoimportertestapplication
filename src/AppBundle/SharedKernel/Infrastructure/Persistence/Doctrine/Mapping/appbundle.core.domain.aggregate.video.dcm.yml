@@ -1,0 +1,7 @@
+AppBundle/Core/Domain/Aggregate/Video:
+  type: entity
+  table: video
+  id:
+    id:
+      type: string
+

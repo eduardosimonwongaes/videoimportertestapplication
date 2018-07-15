@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/test/":{"owner":"www-data","group":"www-data","mount_options":["dmode=777","fmode=777","uid=33","gid=33"],"guestpath":"/var/www/test","hostpath":"/home/edu/Projects/test","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/edu/Projects/test","disabled":false,"__vagrantfile":true}}}

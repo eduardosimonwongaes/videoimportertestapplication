@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Queue/Service/RabbitMqQueueAdapterService.php" description="const RABBITMQ_PASSWORD = 'guest';" line="26" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6e29ff1-d56a-42d1-804f-0a93503b0a85" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Application/Service/ImportVideosFromProvider/ImportVideosFromProviderRequest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Application/Service/ImportVideosFromProvider/ImportVideosFromProviderResponse.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Application/Service/ImportVideosFromProvider/ImportVideosFromProviderUseCase.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/FlubImport/FlubImportServiceInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ImportServiceInterface/ImportServiceInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ImportVideosFromProvider/ImportVideosFromProviderService.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/BuildVideoAggregate/BuildVideoAggregateService.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/GlorfImport/GlorfImportService.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/OtherProviderImportService/OtherProviderImportService.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service/JsonParser/JsonParserService.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service/YamlParser/YamlParserService.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testsrc/AppBundle/Core/Domain/Aggregate/VideoTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testsrc/AppBundle/Core/Domain/Entity/FakeVideoBuilder.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testsrc/AppBundle/Core/Domain/ValueObject/NameTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testsrc/AppBundle/Core/Domain/ValueObject/UrlTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testsrc/AppBundle/Core/Infrastructure/Service/ConsumeAndPersist/ConsumeAndPersistServiceTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testsrc/AppBundle/Core/Infrastructure/Service/ProcessVideo/ProcessVideoServiceTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testsrc/AppBundle/SharedKernel/Domain/ValueObject/MessageTest.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/test$testsrc.coverage" NAME="testsrc Coverage Results" MODIFIED="1531674155135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Consumer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Command/Consumer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Producer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Command/Producer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vagrantfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vagrantfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="provisioner.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provisioner/provisioner.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/basic.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeatureContext.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="53" column="35" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+              <folding>
+                <element signature="e#7#39#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutputService.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service/Output/OutputService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standard_2.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11550">
+              <caret line="825" column="30" lean-forward="false" selection-start-line="825" selection-start-column="30" selection-end-line="825" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Assert.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bin/.phpunit/phpunit-5.7/src/Framework/Assert.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DeleteAlbum</find>
+      <find>AppBundle</find>
+      <find>debug:event-dis</find>
+      <find>cache:clear</find>
+      <find>album.delete.delete_album_use_case</find>
+      <find>imports:</find>
+      <find>\Import</find>
+      <find>require</find>
+      <find>YamlDriver</find>
+      <find>You do not have any</find>
+      <find>You do not have any mapped Doctrine ORM</find>
+      <find>send</find>
+      <find>basic_</find>
+      <find>basic_publish</find>
+      <find>basic_con</find>
+      <find>queue_declare</find>
+      <find>videoconsumer.shared_kernel_infrastructure_queue_service.rabbit_mq_queue_adapter_service</find>
+      <find>yml.yml</find>
+      <find>../../src/SharedKernel/Infrastructure/Resources/services.yml</find>
+      <find>/src/SharedKernel/Infrastructure/Persistence/Doctrine/Mapping</find>
+      <find>use_case</find>
+      <find>Yaml::parse</find>
+      <find>Core</find>
+      <find>GlorfImportService</find>
+      <find>@videoconsumer.shared_kernel.infrastructure.service.json_parser.json_parser_service</find>
+      <find>ParserServiceInterface</find>
+      <find>FlubImportService</find>
+      <find>glorf_import_serv</find>
+      <find>other_prov</find>
+      <find>TODO: write pending definition</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Artist</replace>
+      <replace>ArtistController</replace>
+      <replace>DeleteArtist</replace>
+      <replace>Album</replace>
+      <replace>album</replace>
+      <replace>BindArtistsToAlbums</replace>
+      <replace>yml</replace>
+      <replace>SharedKernel</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/Artist2</dir>
+      <dir>$PROJECT_DIR$/src/Album</dir>
+      <dir>$PROJECT_DIR$/vendor/php-amqplib</dir>
+      <dir>$PROJECT_DIR$/src/SharedKernel/Infrastructure/Resources</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ImporterService/ParserServiceInterface.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/GetImportMethodFromProviderNameFactory/GetImportMethodFromProviderFactoryNameService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ImportProviderService/ImportProviderServiceInterface.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/GlorfImportService/GlorfImportServiceInterface.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/FlubImportService/FlubImportServiceInterface.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/JsonParserService/JsonParserService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/YamlParserService/YamlParserParserService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service/JsonParserService/JsonParserService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service/YamlParserService/YamlParserParserService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service/YamlParserService/YamlParserService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ImportServiceInterface/ImportServiceInterface.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Sftp/SftpFileTransferAdapterService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Domain/Service/SftpServiceInterface.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/OtherProviderImportService/OtherProviderImportServiceInterface.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/FlubImportService/FlubImportService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/GlorfImportService/GlorfImportService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Resources/services.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Resources/infrastructure.services.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Resources/application.use_cases.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Queue/Service/RabbitMqQueueAdapterService.php" />
+        <option value="$PROJECT_DIR$/feed_exports/flub.yaml" />
+        <option value="$PROJECT_DIR$/feed_exports/glorf.json" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service/YamlParser/YamlParserService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Domain/Service/ParserServiceInterface.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service/JsonParser/JsonParserService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/FlubImport/FlubImportService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ImportVideosFromProvider/VideoDataDTOCollection.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/OtherProviderImportService/OtherProviderImportService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/GlorfImport/GlorfImportService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ImportVideosFromProvider/VideoDataDTO.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Application/Service/ImportVideosFromProvider/ImportVideosFromProviderRequest.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Application/Service/ImportVideosFromProvider/ImportVideosFromProviderUseCase.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Domain/ValueObject/Message.php" />
+        <option value="$PROJECT_DIR$/testsrc/AppBundle/SharedKernel/Domain/ValueObject/MessageTest.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/GetImportMethodFromProviderNameFactory/GetImportMethodFromProviderNameFactory.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Resources/domain.services.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Persistence/Doctrine/DoctrineEntityRepository.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Resources/infrastructure.repositories.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Repository/DoctrineVideoRepository.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/ProcessVideo/ProcessVideoService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/BuildVideoAggregate/BuildVideoAggregateService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/VideoDataDTOCollectionBuilder/VideoDataDTOCollectionBuilderService.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ImportVideosFromProvider/ImportVideosFromProviderService.php" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/Vagrantfile" />
+        <option value="$PROJECT_DIR$/test_behavior/Resources/features/basic.feature" />
+        <option value="$PROJECT_DIR$/provisioner/provisioner.sh" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Command/Producer.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service/Output/OutputService.php" />
+        <option value="$PROJECT_DIR$/features/basic.feature" />
+        <option value="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/beberlei/assert" />
+      <path value="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib" />
+      <path value="$PROJECT_DIR$/vendor/bin/.phpunit" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/vendor/behat/behat" />
+      <path value="$PROJECT_DIR$/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1628" />
+    <option name="y" value="-3" />
+    <option name="width" value="1892" />
+    <option name="height" value="1083" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="features" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="features" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="provisioner" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Command" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SharedKernel" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SharedKernel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Infrastructure" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SharedKernel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Infrastructure" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Service" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SharedKernel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Infrastructure" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Service" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Output" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test_behavior" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test_behavior" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".phpunit" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".phpunit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="phpunit-5.7" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".phpunit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="phpunit-5.7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".phpunit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="phpunit-5.7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="standard" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Default">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="AppBundle" type="cbb8eebc:String" user="AppBundle" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="AppBundle" type="cbb8eebc:String" user="AppBundle" />
+              <item name="Core" type="cbb8eebc:String" user="Core" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="AppBundle" type="cbb8eebc:String" user="AppBundle" />
+              <item name="Core" type="cbb8eebc:String" user="Core" />
+              <item name="Infrastructure" type="cbb8eebc:String" user="Infrastructure" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="AppBundle" type="cbb8eebc:String" user="AppBundle" />
+              <item name="Core" type="cbb8eebc:String" user="Core" />
+              <item name="Infrastructure" type="cbb8eebc:String" user="Infrastructure" />
+              <item name="Service" type="cbb8eebc:String" user="Service" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="AppBundle" type="cbb8eebc:String" user="AppBundle" />
+              <item name="Core" type="cbb8eebc:String" user="Core" />
+              <item name="Infrastructure" type="cbb8eebc:String" user="Infrastructure" />
+              <item name="Service" type="cbb8eebc:String" user="Service" />
+              <item name="GlorfImport" type="cbb8eebc:String" user="GlorfImport" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
+    <property name="SearchEverywhereHistoryKey" value="Outp&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/SharedKernel/Infrastructure/Service/Output/OutputService.php&#10;queueServ&#9;null&#9;null&#10;Builder&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/Core/Infrastructure/Service/VideoDataDTOCollectionBuilder/VideoDataDTOCollectionBuilderService.php&#10;ImportV&#9;null&#9;null&#10;DoctrineVide&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/Core/Infrastructure/Repository/DoctrineVideoRepository.php&#10;Doctrin&#9;null&#9;null&#10;ImportVide&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/Core/Domain/Service/ImportVideosFromProvider/ImportVideosFromProviderService.php&#10;ImportF&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/Core/Domain/Service/ImportVideosFromProvider/ImportVideosFromProviderService.php&#10;Flub&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/Core/Infrastructure/Service/FlubImport/FlubImportService.php&#10;JsonPar&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/SharedKernel/Infrastructure/Service/JsonParser/JsonParserService.php&#10;BuilderSer&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/Core/Infrastructure/Service/VideoDataDTOCollectionBuilder/VideoDataDTOCollectionBuilderService.php&#10;Glor&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/Core/Infrastructure/Service/GlorfImport/GlorfImportService.php&#10;Glorb&#9;null&#9;null&#10;Glorf&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/Core/Infrastructure/Service/GlorfImport/GlorfImportService.php&#10;OtherPro&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/Core/Infrastructure/Service/OtherProviderImportService/OtherProviderImportService.php&#10;VideoData&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/Core/Domain/Service/ImportVideosFromProvider/VideoDataDTO.php&#10;FlubIm&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/Core/Infrastructure/Service/FlubImport/FlubImportService.php&#10;ImportVideosPro&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/Core/Application/Service/ImportVideosFromProvider/ImportVideosFromProviderUseCase.php&#10;Invalid&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/Core/Domain/Exception/InvalidProviderException.php&#10;getProviderName&#9;null&#9;null&#10;Rabb&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/SharedKernel/Infrastructure/Queue/Service/RabbitMqQueueAdapterService.php&#10;ParserServiceInt&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/SharedKernel/Domain/Service/ParserServiceInterface.php&#10;services.yml&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/SharedKernel/Infrastructure/Resources/services.yml&#10;use_cases&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/SharedKernel/Infrastructure/Resources/application.use_cases.yml&#10;YamlP&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/SharedKernel/Infrastructure/Service/YamlParserService/YamlParserParserService.php&#10;Url&#9;null&#9;null&#10;Composer&#9;FILE&#9;file:///home/edu/Projects/test/composer.json&#10;DoctrineEntit&#9;FILE&#9;file:///home/edu/Projects/test/src/SharedKernel/Infrastructure/Persistence/Doctrine/DoctrineEntityRepository.php&#10;Message&#9;FILE&#9;file:///home/edu/Projects/test/src/SharedKernel/Domain/ValueObject/Message.php&#10;Adapter&#9;FILE&#9;file:///home/edu/Projects/test/src/SharedKernel/Infrastructure/Queue/Service/RabbitMqQueueAdapterService.php&#10;Ya ,&#9;null&#9;null&#10;composer.&#9;FILE&#9;file:///home/edu/Projects/test/composer.json&#10;composer&#9;FILE&#9;file:///home/edu/Projects/test/composer.json&#10;appDevDebugP&#9;null&#9;null&#10;appDev&#9;FILE&#9;file:///home/edu/Projects/test/var/cache/dev/appDevDebugProjectContainer.xml&#10;compos&#9;FILE&#9;file:///home/edu/Projects/test/composer.json&#10;Vagr&#9;FILE&#9;file:///home/edu/Projects/test/Vagrantfile&#10;composer.json&#9;FILE&#9;file:///home/edu/Projects/test/composer.json&#10;Controller&#9;FILE&#9;file:///home/edu/Projects/test/src/AppBundle/Controller/ArtistController.php&#10;phpunit&#9;FILE&#9;file:///home/edu/Projects/test/phpunit.xml.dist&#10;docker-co&#9;FILE&#9;file:///home/edu/Projects/test/docker-compose.yml" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml.dist" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/features" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/SharedKernel/Domain/Service" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service" />
+      <recent name="$PROJECT_DIR$/testsrc/AppBundle" />
+      <recent name="$PROJECT_DIR$/src/AppBundle" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Command" />
+      <recent name="$PROJECT_DIR$/src/Album/Application/Service" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Controller" />
+      <recent name="$PROJECT_DIR$/src/Artist/Application/Service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHPUnit.testsrc">
+    <configuration name="MessageTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="AppBundle\SharedKernel\Domain\ValueObject\MessageTest" file="$PROJECT_DIR$/testsrc/AppBundle/SharedKernel/Domain/ValueObject/MessageTest.php" scope="Class" />
+    </configuration>
+    <configuration name="MessageTest.testThatCreatingTheMessageObjectAndRetrievingItAsAnAMQPMessageWillHaveTheProperValueSet" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="AppBundle\SharedKernel\Domain\ValueObject\MessageTest" file="$PROJECT_DIR$/testsrc/AppBundle/SharedKernel/Domain/ValueObject/MessageTest.php" method="testThatCreatingTheMessageObjectAndRetrievingItAsAnAMQPMessageWillHaveTheProperValueSet" scope="Method" />
+    </configuration>
+    <configuration name="MessageTest.testThatPassingProperParametersAMessageWillBeCreated" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="AppBundle\SharedKernel\Domain\ValueObject\MessageTest" file="$PROJECT_DIR$/testsrc/AppBundle/SharedKernel/Domain/ValueObject/MessageTest.php" method="testThatPassingProperParametersAMessageWillBeCreated" scope="Method" />
+    </configuration>
+    <configuration name="NameTest.testThatPassingAnInvalidArgumentShouldThrowAnException" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="AppBundle\Core\Domain\ValueObject\NameTest" file="$PROJECT_DIR$/testsrc/AppBundle/Core/Domain/ValueObject/NameTest.php" method="testThatPassingAnInvalidArgumentShouldThrowAnException" scope="Method" />
+    </configuration>
+    <configuration name="testsrc" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/testsrc" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.testsrc" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.NameTest.testThatPassingAnInvalidArgumentShouldThrowAnException" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.MessageTest" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.MessageTest.testThatPassingProperParametersAMessageWillBeCreated" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.MessageTest.testThatCreatingTheMessageObjectAndRetrievingItAsAnAMQPMessageWillHaveTheProperValueSet" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.testsrc" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.MessageTest.testThatCreatingTheMessageObjectAndRetrievingItAsAnAMQPMessageWillHaveTheProperValueSet" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.MessageTest" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.MessageTest.testThatPassingProperParametersAMessageWillBeCreated" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.NameTest.testThatPassingAnInvalidArgumentShouldThrowAnException" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6e29ff1-d56a-42d1-804f-0a93503b0a85" name="Default" comment="" />
+      <created>1519842775441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519842775441</updated>
+      <workItem from="1519842777938" duration="3005000" />
+      <workItem from="1519845916112" duration="10770000" />
+      <workItem from="1527533988670" duration="1754000" />
+      <workItem from="1527535899623" duration="373000" />
+      <workItem from="1531501033064" duration="1251000" />
+      <workItem from="1531511249760" duration="3547000" />
+      <workItem from="1531594337633" duration="1438000" />
+      <workItem from="1531595858184" duration="6593000" />
+      <workItem from="1531602576459" duration="5565000" />
+      <workItem from="1531608815922" duration="1813000" />
+      <workItem from="1531610691901" duration="10764000" />
+      <workItem from="1531622139083" duration="5563000" />
+      <workItem from="1531627740548" duration="2245000" />
+      <workItem from="1531652217949" duration="26499000" />
+      <workItem from="1531680930913" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MessageTest - 2018.07.15 at 17h 44m 52s.xml">
+      <configuration name="MessageTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="MessageTest_testThatCreatingTheMessageObjectAndRetrievingItAsAnAMQPMessageWillHaveTheProperValueSet - 2018.07.15 at 17h 44m 49s.xml">
+      <configuration name="MessageTest.testThatCreatingTheMessageObjectAndRetrievingItAsAnAMQPMessageWillHaveTheProperValueSet" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="MessageTest_testThatCreatingTheMessageObjectAndRetrievingItAsAnAMQPMessageWillHaveTheProperValueSet - 2018.07.15 at 17h 45m 08s.xml">
+      <configuration name="MessageTest.testThatCreatingTheMessageObjectAndRetrievingItAsAnAMQPMessageWillHaveTheProperValueSet" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="MessageTest_testThatCreatingTheMessageObjectAndRetrievingItAsAnAMQPMessageWillHaveTheProperValueSet - 2018.07.15 at 17h 45m 42s.xml">
+      <configuration name="MessageTest.testThatCreatingTheMessageObjectAndRetrievingItAsAnAMQPMessageWillHaveTheProperValueSet" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="MessageTest_testThatCreatingTheMessageObjectAndRetrievingItAsAnAMQPMessageWillHaveTheProperValueSet - 2018.07.15 at 17h 46m 41s.xml">
+      <configuration name="MessageTest.testThatCreatingTheMessageObjectAndRetrievingItAsAnAMQPMessageWillHaveTheProperValueSet" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="testsrc - 2018.07.15 at 05h 52m 35s.xml">
+      <configuration name="testsrc" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="testsrc - 2018.07.15 at 06h 01m 20s.xml">
+      <configuration name="testsrc" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="testsrc - 2018.07.15 at 14h 44m 44s.xml">
+      <configuration name="testsrc" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="testsrc - 2018.07.15 at 18h 30m 11s.xml">
+      <configuration name="testsrc" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="testsrc - 2018.07.15 at 19h 02m 44s.xml">
+      <configuration name="testsrc" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="81201000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1628" y="-3" width="1894" height="1098" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21088795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32793522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299595" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/var/cache/dev/Container6npdmhc/appDevDebugProjectContainer.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Domain/Exception/InvalidProviderException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Sftp/SftpFileTransferAdapterService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ImportServiceInterface/ImportServiceInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Domain/Service/SftpServiceInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Domain/Service/ParserServiceInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed_exports/flub.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ImportVideosFromProvider/VideoDataDTOCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service/JsonParser/JsonParserService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service/YamlParser/YamlParserService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/FlubImport/FlubImportService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/GlorfImport/GlorfImportService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ImportVideosFromProvider/VideoDataDTO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Application/Service/ImportVideosFromProvider/ImportVideosFromProviderRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ConsumeAndPersist/ConsumeAndPersistInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/ConsumeAndPersist/ConsumeAndPersistService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Domain/ValueObject/Message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsrc/AppBundle/SharedKernel/Domain/ValueObject/MessageTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Application/Service/ImportVideosFromProvider/ImportVideosFromProviderUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/GetImportMethodFromProviderNameFactory/GetImportMethodFromProviderNameFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Domain/Persistence/EntityRepositoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Domain/Repository/VideoRepositoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Persistence/Doctrine/DoctrineEntityRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="57" column="39" lean-forward="false" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Resources/domain.services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="88" lean-forward="false" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Resources/infrastructure.services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="81" lean-forward="false" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Persistence/Cassandra/CassandraEntityRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Repository/CassandraVideoRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Resources/infrastructure.repositories.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/OtherProviderImportService/OtherProviderImportService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="39" column="48" lean-forward="false" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Repository/DoctrineVideoRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/VideoDataDTOCollectionBuilder/VideoDataDTOCollectionBuilderService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed_exports/glorf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/Assertion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="1579" column="27" lean-forward="false" selection-start-line="1579" selection-start-column="27" selection-end-line="1579" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Domain/ValueObject/Url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ProcessVideo/ProcessVideoInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/ProcessVideo/ProcessVideoService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Domain/Service/QueueServiceInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Queue/Service/RabbitMqQueueAdapterService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ImportVideosFromProvider/ImportVideosFromProviderService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="88" column="14" lean-forward="false" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/BuildVideoAggregate/BuildVideoAggregateService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsrc/AppBundle/Core/Domain/ValueObject/NameTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provisioner/provisioner.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bin/.phpunit/phpunit-5.7/src/Framework/Assert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11550">
+          <caret line="825" column="30" lean-forward="false" selection-start-line="825" selection-start-column="30" selection-end-line="825" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Command/Consumer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Command/Producer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service/Output/OutputService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/basic.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="53" column="35" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+          <folding>
+            <element signature="e#7#39#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
