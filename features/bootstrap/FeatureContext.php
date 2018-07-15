@@ -50,8 +50,7 @@ class FeatureContext implements Context
      */
     public function iShouldSeeInTheOutput(PyStringNode $string)
     {
-        echo tpths->othtt
-        Assert::assertNotFalse(str-pos($this->output,$string->getRaw()));
+        Assert::assertNotFalse(strpos($this->output,$string->getRaw()));
     }
 
     /**

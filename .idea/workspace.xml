@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e29ff1-d56a-42d1-804f-0a93503b0a85" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Application/Service/ImportVideosFromProvider/ImportVideosFromProviderRequest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Application/Service/ImportVideosFromProvider/ImportVideosFromProviderResponse.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Application/Service/ImportVideosFromProvider/ImportVideosFromProviderUseCase.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/FlubImport/FlubImportServiceInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ImportServiceInterface/ImportServiceInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Domain/Service/ImportVideosFromProvider/ImportVideosFromProviderService.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/BuildVideoAggregate/BuildVideoAggregateService.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/GlorfImport/GlorfImportService.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Core/Infrastructure/Service/OtherProviderImportService/OtherProviderImportService.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service/JsonParser/JsonParserService.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/SharedKernel/Infrastructure/Service/YamlParser/YamlParserService.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testsrc/AppBundle/Core/Domain/Aggregate/VideoTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testsrc/AppBundle/Core/Domain/Entity/FakeVideoBuilder.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testsrc/AppBundle/Core/Domain/ValueObject/NameTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testsrc/AppBundle/Core/Domain/ValueObject/UrlTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testsrc/AppBundle/Core/Infrastructure/Service/ConsumeAndPersist/ConsumeAndPersistServiceTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testsrc/AppBundle/Core/Infrastructure/Service/ProcessVideo/ProcessVideoServiceTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testsrc/AppBundle/SharedKernel/Domain/ValueObject/MessageTest.php" />
+      <change beforePath="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" afterPath="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -102,8 +85,8 @@
       <file leaf-file-name="FeatureContext.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="53" column="35" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+            <state relative-caret-position="436">
+              <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
               <folding>
                 <element signature="e#7#39#0#PHP" expanded="true" />
               </folding>
@@ -346,10 +329,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1628" />
-    <option name="y" value="-3" />
-    <option name="width" value="1892" />
-    <option name="height" value="1083" />
+    <option name="x" value="1627" />
+    <option name="y" value="-17" />
+    <option name="width" value="1894" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -672,7 +655,7 @@
       <workItem from="1531622139083" duration="5563000" />
       <workItem from="1531627740548" duration="2245000" />
       <workItem from="1531652217949" duration="26499000" />
-      <workItem from="1531680930913" duration="21000" />
+      <workItem from="1531680930913" duration="731000" />
     </task>
     <servers />
   </component>
@@ -709,10 +692,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81201000" />
+    <option name="totallyTimeSpent" value="81911000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1628" y="-3" width="1894" height="1098" extended-state="6" />
+    <frame x="1627" y="-17" width="1894" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21088795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1119,8 +1102,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="53" column="35" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+        <state relative-caret-position="436">
+          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
             <element signature="e#7#39#0#PHP" expanded="true" />
           </folding>
