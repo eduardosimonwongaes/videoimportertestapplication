@@ -59,7 +59,7 @@ class FeatureContext implements Context
     public function iRunTheImportCommand()
     {
         $this->output = shell_exec(self::BASE_COMMAND);
-        echs $this->output;
+        echo  $this->output;
 
     }
 
